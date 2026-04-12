@@ -1,0 +1,47 @@
+.dropdown__item .dropdown_icon {
+    transform: rotate(90deg);
+    transition: all 0.4s ease-in-out;
+}
+
+.dropdown__item:hover .dropdown_icon {
+    transform: rotate(0deg);
+}
+
+
+
+/* <sas */
+.sas__text h1 {
+    font-size: 120px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sas__text h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sas {
+    border-bottom: 4px solid gray;
+    
+}
+
+
+/* <slick */
+.brand {
+    display: flex;
+    justify-content: center;
+}
+
+.brand h4 {
+    margin: 30px 0;
+    font-size: 20px;
+    
+}
+
+.brand__content .brand__item {
+    width: 1200px;
+    
+}
+
