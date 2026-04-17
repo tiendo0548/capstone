@@ -1,0 +1,83 @@
+
+
+
+
+.all {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.navigation 
+
+.dropdown__item .dropdown_icon {
+    transform: rotate(90deg);
+    transition: all 0.4s ease-in-out;
+}
+
+.dropdown__item:hover .dropdown_icon {
+    transform: rotate(0deg);
+}
+
+
+
+/* <sas */
+.sas__text h1 {
+    font-size: 120px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sas__text h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sas {
+   
+}
+
+
+/* <slick */
+.brand {
+    display: flex;
+    justify-content: center;
+}
+
+.brand h4 {
+    margin: 30px 0;
+    font-size: 20px;
+    
+}
+
+.brand__content .brand__item {
+    width: 1200px;
+    
+}
+
+.hr {
+    color:  rgb(219 214 207);
+    height: 4px;
+    width: 100%;
+    margin: 80px 0;
+}
+
+
+
+/* <!-- <features --> */   
+.features_h1 {
+    font-size: 100px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.features__item h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.features__item p {
+    font-size: 20px;
+}
