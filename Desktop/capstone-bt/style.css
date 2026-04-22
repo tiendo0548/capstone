@@ -66,14 +66,19 @@
 
 
 /* backroudn */
-.backround {
 
+
+.backround {
+    /* background-color: rgb(239 234 227 / var(--tw-bg-opacity)); */
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 234 227 / var(--tw-bg-opacity));
+    border-radius: 30px;
 }
 
 .bg {
     background: linear-gradient(135deg, #ff7632, #ff8724);
     filter: blur(50px);   /* làm lem */
-
+    
 }
 
 
@@ -124,4 +129,28 @@
 .features_item:hover .img_red {
     opacity: 1;
     
+}
+
+
+/* solution */
+.solution_contain h1 {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.solution_contain {
+    
+}
+
+.solution_contain p {
+    font-size: 20px;
+}
+
+.solution_contain .solution_img {
+    width: 1000px;
+    height: 600px;
+}
+
+.solution_contain .solution_text {
+    width: 20%;
 }
