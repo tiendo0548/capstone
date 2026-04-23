@@ -4,32 +4,691 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azzle - AI Technology & Startup HTML Template</title>
+    <title>Capstone</title>
 
-    <!-- tailwind css -->
+
+    <!-- <flowbite -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+    <!-- <cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <!-- Flowbite -->
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+    <!-- <slicks -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- slick -->
+    <link rel="stylesheet" href="./libs/slick/slick.css" />
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css" />
 
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- slick -->
-    <link rel="stylesheet" href="./libs/slick/slick.css" />
-    <link rel="stylesheet" href="./libs/slick/slick-theme.css" />
 
     <!-- animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
-
+    <!-- <css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+
+
+
+<body class="">
+    <header class="all ">
+
+        <nav class="navigation ">
+
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 all ">
+
+                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./images/logo-dark.png" class="h-8" alt="Flowbite Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+                </a>
+
+
+                <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
+
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
+
+
+                        <!-- <Demo -->
+                        <li>
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar__Demo" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 
+                                 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 
+                                md:dark:hover:bg-transparent">Demo<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 4 4 4-4" />
+                                </svg></button>
+                            <!-- Dropdown menu -->
+                            <div id="dropdownNavbar__Demo"
+                                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                    aria-labelledby="dropdownLargeButton">
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                    </li>
+                                    <li aria-labelledby="dropdownNavbarLink">
+                                        <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown"
+                                            data-dropdown-placement="right-start" type="button"
+                                            class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg
+                                                class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                                            </svg></button>
+                                        <div id="doubleDropdown"
+                                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                                aria-labelledby="doubleDropdownButton">
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
+                                                        downloads</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                    </li>
+                                </ul>
+                                <div class="py-1">
+                                    <a href="#"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
+                                        out</a>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <!-- <About -->
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 
+                                md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                        </li>
+
+
+
+
+                        <!-- <Services -->
+                        <li>
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar__Services"
+                                class="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 
+                                md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Services
+                                <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 4 4 4-4" />
+                                </svg>
+                            </button>
+                            <!-- Dropdown menu -->
+                            <div id="dropdownNavbar__Services"
+                                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                    aria-labelledby="dropdownLargeButton">
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                                    </li>
+                                    <li aria-labelledby="dropdownNavbarLink">
+                                        <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown"
+                                            data-dropdown-placement="right-start" type="button"
+                                            class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg
+                                                class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                                            </svg></button>
+                                        <div id="doubleDropdown"
+                                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                                aria-labelledby="doubleDropdownButton">
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
+                                                        downloads</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                                    </li>
+                                </ul>
+                                <div class="py-1">
+                                    <a href="#"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
+                                        out</a>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+                        <!-- <Pages -->
+                        <li class="dropdown__item">
+                            <span id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar__Pages"
+                                class="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 
+                                md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Pages
+                                <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 4 4 4-4" class="dropdown_icon" />
+                                </svg>
+                            </span>
+                            <!-- Dropdown menu -->
+                            <div id="dropdownNavbar__Pages"
+                                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
+
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                    aria-labelledby="dropdownLargeButton">
+
+                                    <!-- <doubleDropdown__blogs -->
+                                    <li aria-labelledby="dropdownNavbarLink">
+                                        <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown__Blogs"
+                                            data-dropdown-placement="right-start" type="button"
+                                            class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Blogs<svg
+                                                class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                                            </svg>
+                                        </button>
+
+                                        <div id="doubleDropdown__Blogs"
+                                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                                aria-labelledby="doubleDropdownButton">
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
+                                                        downloads</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+                                    <!-- <doubleDropdown__Pages -->
+                                    <li aria-labelledby="dropdownNavbarLink">
+
+                                        <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown__Team"
+                                            data-dropdown-placement="right-start" type="button"
+                                            class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Team<svg
+                                                class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                                            </svg>
+                                        </button>
+
+                                        <div id="doubleDropdown__Team"
+                                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                                aria-labelledby="doubleDropdownButton">
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
+                                                        downloads</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </li>
+
+
+                                    <!-- <doubleDropdown__FAQ -->
+                                    <li aria-labelledby="dropdownNavbarLink">
+
+                                        <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown__FAQ"
+                                            data-dropdown-placement="right-start" type="button"
+                                            class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">FAQ<svg
+                                                class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                                            </svg>
+                                        </button>
+
+                                        <div id="doubleDropdown__FAQ"
+                                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                                aria-labelledby="doubleDropdownButton">
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
+                                                        downloads</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </li>
+
+
+                                    <!-- <doubleDropdown__Portfolio -->
+                                    <li aria-labelledby="dropdownNavbarLink">
+
+                                        <button id="doubleDropdownButton"
+                                            data-dropdown-toggle="doubleDropdown__Portfolio"
+                                            data-dropdown-placement="right-start" type="button"
+                                            class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Portfolio<svg
+                                                class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                                            </svg>
+                                        </button>
+
+                                        <div id="doubleDropdown__Portfolio"
+                                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                                aria-labelledby="doubleDropdownButton">
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
+                                                        downloads</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </li>
+
+
+
+                                    <li>
+                                        <a href="#"
+                                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Pricing</a>
+                                    </li>
+
+
+                                    <!-- <doubleDropdown__Utilities -->
+                                    <li aria-labelledby="dropdownNavbarLink">
+
+                                        <button id="doubleDropdownButton"
+                                            data-dropdown-toggle="doubleDropdown__Utilities"
+                                            data-dropdown-placement="right-start" type="button"
+                                            class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Utilities<svg
+                                                class="w-2.5 h-2.5 ms-2.5" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                                            </svg>
+                                        </button>
+
+                                        <div id="doubleDropdown__Utilities"
+                                            class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                                aria-labelledby="doubleDropdownButton">
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
+                                                        downloads</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"
+                                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </li>
+
+
+
+
+                                </ul>
+
+
+
+                            </div>
+                        </li>
+
+
+
+
+                        <!-- <Contact -->
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 
+                                md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+
+                <button type="button"
+                    class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l 
+                    focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Purple
+                    to Pink</button>
+                <button type="button"
+                    class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl 
+                    focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Pink
+                    to Orange</button>
+
+
+
+            </div>
+        </nav>
+
+
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+    <section class="backround relative z-[1] overflow-hidden ">
+
+
+        <!-- <Sas -->
+        <section class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 all ">
+
+            <div class="sas__text">
+                <h1 style="color: black;">Simplify your SaaS<br /> solution with AI</h1>
+                <h3 style="color: black;">Our AI SAAS tool is a cloud-based software delivery model. It helps businesses
+                    forecast demand for
+                    products
+                    and services and optimize inventory management and supply chain operations.</h3>
+            </div>
+
+            <button type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l 
+                    focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 
+                    font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Get started for free</button>
+            <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl 
+                    focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 
+                    font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Learn more
+            </button>
+
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <img src="./images/hero-dashboard.jpg" alt="">
+            </div>
+
+            <hr class="hr" />
+
+            <!-- <slick -->
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 brand all">
+                <h4>Companies of all sizes trust us to find AI SaaS critical to their growth and innovation</h4>
+                <div class="brand__content">
+                    <div class="brand__item">
+                        <div><img src="./images/brand-1.png" alt=""></div>
+                        <div><img src="./images/brand-2.png" alt=""></div>
+                        <div><img src="./images/brand-3.png" alt=""></div>
+                        <div><img src="./images/brand-4.png" alt=""></div>
+                        <div><img src="./images/brand-5.png" alt=""></div>
+
+                        <div><img src="./images/brand-1.png" alt=""></div>
+                        <div><img src="./images/brand-2.png" alt=""></div>
+                        <div><img src="./images/brand-3.png" alt=""></div>
+                        <div><img src="./images/brand-4.png" alt=""></div>
+                        <div><img src="./images/brand-5.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- <backround  -->
+
+        <p></p>
+        <div
+            class="bg orange-gradient-1 absolute -right-[150px] top-[370px] -z-[1] h-[500px] w-[500px]  rounded-[500px]">
+        </div>
+        <div class="bg orange-gradient-2 absolute right-[57px] top-[620px] -z-[1] h-[450px] w-[450px]  rounded-[450px]">
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+    <!-- <features -->
+
+
+
+    <section class="bg-neutral-primary all">
+        <div class="mb-20">
+            <h1 class="mx-auto all" style="font-size: 100px; font-weight: 700; text-align: left;">Core features
+                that<br /> make it valuable</h1>
+        </div>
+
+        <div class="py-8 px-4 mx-auto lg:py-16 features">
+
+            <div class="grid md:grid-cols-4 features_contain">
+
+                <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12 features_item ">
+                    <span
+                        class="inline-flex items-center bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm ">
+                        <img class="img_black" src="./images/service-icon-black-1.svg" alt="">
+                        <img class="img_red" src="./images/service-icon-orange-1.svg" alt="">
+                    </span>
+                    <h2 class="text-heading text-3xl font-semobild my-4" style="font-size: 30px; font-weight: 700;">
+                        Resource Flexibility</h2>
+                    <p class="font-normal text-body mb-4" style="font-size: 20px;">This is an excellent option
+                        for<br /> people & small businesses<br /> who are starting out.</p>
+                    <a href="#" class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center">
+                        <svg class="w-6 h-6 rtl:rotate-180 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 12H5m14 0-4 4m4-4-4-4" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12 features_item">
+                    <span
+                        class="inline-flex items-center bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
+                        <img class="img_black" src="./images/service-icon-black-2.svg" alt="">
+                        <img class="img_red" src="./images/service-icon-orange-2.svg" alt="">
+                    </span>
+                    <h2 class="text-heading text-3xl font-semobild my-4" style="font-size: 30px; font-weight: 700;">
+                        Resource Flexibility</h2>
+                    <p class=" font-normal text-body mb-4" style="font-size: 20px;">This is an excellent option
+                        for<br /> people & small businesses<br /> who are starting out.</p>
+                    <a href="#" class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center">
+                        <svg class="w-6 h-6 rtl:rotate-180 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 12H5m14 0-4 4m4-4-4-4" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12 features_item">
+                    <span
+                        class="inline-flex items-center bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
+                        <img class="img_black" src="./images/service-icon-black-3.svg" alt="">
+                        <img class="img_red" src="./images/service-icon-orange-3.svg" alt="">
+                    </span>
+                    <h2 class="text-heading text-3xl font-semobild my-4" style="font-size: 30px; font-weight: 700;">
+                        Resource Flexibility</h2>
+                    <p class=" font-normal text-body mb-4" style="font-size: 20px;">This is an excellent option
+                        for<br /> people & small businesses<br /> who are starting out.</p>
+                    <a href="#" class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center">
+                        <svg class="w-6 h-6 rtl:rotate-180 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 12H5m14 0-4 4m4-4-4-4" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12 features_item">
+                    <span
+                        class="inline-flex items-center bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
+                        <img class="img_black" src="./images/service-icon-black-4.svg" alt="">
+                        <img class="img_red" src="./images/service-icon-orange-4.svg" alt="">
+                    </span>
+                    <h2 class="text-heading text-3xl font-semobild my-4" style="font-size: 30px; font-weight: 700;">
+                        Resource Flexibility</h2>
+                    <p class=" font-normal text-body mb-4" style="font-size: 20px;">This is an excellent option
+                        for<br /> people & small businesses<br /> who are starting out.</p>
+                    <a href="#" class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center">
+                        <svg class="w-6 h-6 rtl:rotate-180 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 12H5m14 0-4 4m4-4-4-4" />
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- solution -->
+    <section class="all">
+        <div class="solution ">
+            <div class="solution_contain flex justify-between">
+                <div><img class="solution_img" src="./images/content-image-1.jpg" alt=""></div>
+                <div class="solution_text">
+                    <h1>Accessible to a wider audience</h1>
+                    <p>Advanced AI capabilities accessible to a broader audience,<br /> including small & medium-sized
+                        businesses
+                        and individuals<br /> who may not have the resources or expertise to develop.<br />
+                        <br />
+                        Advanced AI capabilities accessible to a broader audience,<br /> including small & medium-sized
+                        businesses
+                        and individuals<br /> who may not have the resources or expertise to develop.
+                    </p>
+                </div>
+            </div>
+
+            <div class="solution_contain flex">
+                <div>
+                    <h1>Providing quick deploy solutions</h1>
+                    <p>Our AI SaaS solutions can be quickly deployed, enabling users to start benefiting from AI
+                        capabilities without lengthy setup and development times in fast-paced industries.
+
+                    </p>
+                    <ul>
+                        <li>Ready-to-use AI capabilities system</li>
+                        <li>Users can quickly integrate AI features</li>
+                        <li>Time savings translate to cost savings</li>
+                    </ul>
+                </div>
+                <div><img src="./images/content-image-2.jpg" alt=""></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ha -->
+
+
     <!-- Streamline -->
     <section id="streamline" class="my-10 ">
         <div
@@ -751,7 +1410,25 @@
     <script src="./libs/countup/jquery.countup.min.js"></script>
     <script>$(".counter").countUp();</script>
 
-    <!-- flowbite css js -->
+
+    <!-- <slicks -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $('.brand__item').slick({
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 5,
+            });
+        });
+    </script>
+
+
+    <!-- <flowbite -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 
 </body>
