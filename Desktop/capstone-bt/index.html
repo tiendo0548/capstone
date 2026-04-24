@@ -128,10 +128,10 @@
                                     <ul class="py-2 text-[16px] text-black"
                                         aria-labelledby="dropdownHoverButton__Service">
                                         <li>
-                                            <a href="#" class="block px-4 py-2 hover:text-red-500">Services</a>
+                                            <a href="https://azzle.netlify.app/services" class="block px-4 py-2 hover:text-red-500">Services</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="block px-4 py-2 hover:text-red-500">Services Details</a>
+                                            <a href="https://azzle.netlify.app/service-details" class="block px-4 py-2 hover:text-red-500">Services Details</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -410,7 +410,7 @@
                     </div>
                 </div>
 
-                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" data-aos="zoom-in">
                     <img src="./images/hero-dashboard.jpg" alt="">
                 </div>
 
@@ -466,13 +466,13 @@
 
 
 
-    <section class="features__content bg-neutral-primary all" data-aos="fade-up">
-        <div>
+    <section class="features__content bg-neutral-primary all">
+        <div data-aos="fade-up">
             <h1 class="px-5 all pt-25 pb-2" style="font-size: 70px; font-weight: 700; text-align: left;">Core features
                 that<br /> make it valuable</h1>
         </div>
 
-        <div class="pb-8 px-4 mx-auto lg:py-16 features">
+        <div class="pb-8 px-4 mx-auto lg:py-16 features" data-aos="fade-up">
 
             <div class="grid md:grid-cols-4 features_contain">
 
@@ -683,7 +683,7 @@
                     </ul>
                 </div>
             </div>
-            <div id="default-styled-tab-content" data-aos="flip-left" data-aos-delay="1500">
+            <div id="default-styled-tab-content" data-aos="flip-left" data-aos-delay="800">
                 <div class="hidden p-4 rounded-base bg-neutral-secondary-soft" id="styled-monthly" role="tabpanel"
                     aria-labelledby="monthly-tab">
                     <div
@@ -901,7 +901,7 @@
     <section id="infomation">
         <div class="information__card flex justify-center gap-20">
 
-            <div class="information__left w-[50%] mt-10 p-6" data-aos="fade-right">
+            <div class="information__left w-[50%] mt-20 p-6" data-aos="fade-right" data-aos-delay="2000">
                 <h5 class="text-[60px] font-bold leading-none">Freely ask us for more information</h5>
                 <p class="text-xl text-left my-6">Our AI SaaS solutions can be quickly deployed, enabling users to start
                     benefiting from AI capabilities without lengthy setup and development times in fast-paced
@@ -917,7 +917,7 @@
                 </a>
             </div>
 
-            <div class="information__right flex flex-col w-[40%]" data-aos="fade-left">
+            <div class="information__right flex flex-col w-[40%] mt-10" data-aos="fade-left" data-aos-delay="2000">
                 <div class="mt-10 bg-white text-black">
                     <div class="border-b border-gray-300 py-6">
                         <div class="flex justify-between items-center cursor-pointer">
@@ -972,8 +972,8 @@
 
     <!-- Feedback -->
     <section>
-        <div class="bg-black text-white" data-aos="fade-up">
-            <h2 class="feedback__title text-7xl text-white font-bold text-center py-20">Positive feedback <br>from our
+        <div class="bg-black text-white mt-20 pt-10">
+            <h2 class="feedback__title text-7xl text-white font-bold text-center py-20" data-aos="fade-up">Positive feedback <br>from our
                 users</h2>
             <div class="feedback__content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-5 gap-4 pb-30">
                 <div class="feedback__item1 flex flex-col border-1 border-white/10 p-5 mx-auto rounded-sm" data-aos="fade-left" data-aos-delay="1500">
@@ -1363,7 +1363,8 @@
     <script>
         AOS.init({
             duration: 1000,
-            once: true
+            once: true,
+            offset: 250,
         });
     </script>
 
