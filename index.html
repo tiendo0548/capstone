@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+
+
+    <!-- <flowbite -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+    <!-- <cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+    <!-- <slicks -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- slick -->
+    <link rel="stylesheet" href="./libs/slick/slick.css" />
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css" />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
+
+    <!-- <css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body class="">
+    <div class="backround relative z-[1] ">
+        <header class="all ">
+
+            <nav class="navigation">
+
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 all ">
+
+                    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <img src="./images/logo-dark.png" class="h-5" alt="Flowbite Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+                    </a>
+
+
+                    <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
+
+                        <ul
+                            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent text-lg font-semibold">
+
+
+                            <!-- Demo -->
+
+                            <li>
+                                <button id="dropdownHoverButton__Demo" data-dropdown-toggle="dropdownHover__Demo"
+                                    data-dropdown-trigger="hover"
+                                    class="text-black bg-transparent text-[18px] focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+                                    type="button">Demo<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m1 1 4 4 4-4" />
+                                    </svg>
+                                </button>
+
+                                <!-- Dropdown menu -->
+                                <div id="dropdownHover__Demo"
+                                    class="z-10 hidden translate-x-12 bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                    <ul class="py-2 text-[16px] text-black" aria-labelledby="dropdownHoverButton__Demo">
+                                        <li>
+                                            <a href="#" class="block px-4 py-2 hover:text-red-500">Home 01</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="block px-4 py-2 hover:text-red-500">Home 02</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="block px-4 py-2 hover:text-red-500">Home 03</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="block px-4 py-2 hover:text-red-500">Home 04</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+
+
+                            <!-- <About -->
+                            <li>
+                                <a href="https://azzle.netlify.app/about"
+                                    class="block py-2.5 px-5 text-black rounded-sm hover:bg-transparent md:border-0">About</a>
+                            </li>
+
+
+
+                            <!-- <Services -->
+                            <li>
+                                <button id="dropdownHoverButton__Service" data-dropdown-toggle="dropdownHover__Service"
+                                    data-dropdown-trigger="hover"
+                                    class="text-black bg-transparent text-[18px] focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+                                    type="button">Services<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m1 1 4 4 4-4" />
+                                    </svg>
+                                </button>
+
+                                <!-- Dropdown menu -->
+                                <div id="dropdownHover__Service"
+                                    class="z-10 hidden translate-x-12 bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                    <ul class="py-2 text-[16px] text-black"
+                                        aria-labelledby="dropdownHoverButton__Service">
+                                        <li>
+                                            <a href="https://azzle.netlify.app/services" class="block px-4 py-2 hover:text-red-500">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://azzle.netlify.app/service-details" class="block px-4 py-2 hover:text-red-500">Services Details</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+                            <!-- <Pages -->
+                            <li>
+                                <button id="multiLevelDropdownButton" data-dropdown-toggle="multi-dropdown"
+                                    data-dropdown-trigger="hover"
+                                    class="text-black bg-transparent text-[18px] focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+                                    type="button">Pages<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m1 1 4 4 4-4" />
+                                    </svg>
+                                </button>
+
+                                <!-- Dropdown menu -->
+                                <div id="multi-dropdown"
+                                    class="z-10 hidden translate-x-12 bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                    <ul class="py-2 text-[16px] text-black" aria-labelledby="multiLevelDropdownButton">
+                                        <!-- Dropdown Blog -->
+                                        <li>
+                                            <button id="doubleDropdownButton__Blog"
+                                                data-dropdown-toggle="doubleDropdown__Blog"
+                                                data-dropdown-placement="right-start" data-dropdown-trigger="hover"
+                                                type="button"
+                                                class="flex items-center justify-between w-full px-4 py-2 hover:text-red-500">Blogs<svg
+                                                    class="w-2.5 h-2.5 ms-3 rtl:rotate-180" aria-hidden="true"
+                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                                                </svg></button>
+                                            <div id="doubleDropdown__Blog"
+                                                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                                <ul class="py-2 text-[16px] text-black"
+                                                    aria-labelledby="doubleDropdownButton__Blog">
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/blog"
+                                                            class="block px-4 py-2 hover:text-red-500">Blogs</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/blog-details"
+                                                            class="block px-4 py-2 hover:text-red-500">Blogs
+                                                            Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <!-- Dropdown Team -->
+                                        <li>
+                                            <button id="doubleDropdownButton__Team"
+                                                data-dropdown-toggle="doubleDropdown__Team"
+                                                data-dropdown-placement="right-start" data-dropdown-trigger="hover"
+                                                type="button"
+                                                class="flex items-center justify-between w-full px-4 py-2 hover:text-red-500">Teams<svg
+                                                    class="w-2.5 h-2.5 ms-3 rtl:rotate-180" aria-hidden="true"
+                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                                                </svg></button>
+                                            <div id="doubleDropdown__Team"
+                                                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                                <ul class="py-2 text-[16px] text-black"
+                                                    aria-labelledby="doubleDropdownButton__Team">
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/team"
+                                                            class="block px-4 py-2 hover:text-red-500">Teams</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/team-details"
+                                                            class="block px-4 py-2 hover:text-red-500">Teams
+                                                            Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <!-- Dropdown FAQ -->
+                                        <li>
+                                            <button id="doubleDropdownButton__FAQ"
+                                                data-dropdown-toggle="doubleDropdown__FAQ"
+                                                data-dropdown-placement="right-start" data-dropdown-trigger="hover"
+                                                type="button"
+                                                class="flex items-center justify-between w-full px-4 py-2 hover:text-red-500">FAQ<svg
+                                                    class="w-2.5 h-2.5 ms-3 rtl:rotate-180" aria-hidden="true"
+                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                                                </svg></button>
+                                            <div id="doubleDropdown__FAQ"
+                                                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                                <ul class="py-2 text-[16px] text-black"
+                                                    aria-labelledby="doubleDropdownButton__FAQ">
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/faq"
+                                                            class="block px-4 py-2 hover:text-red-500">FAQ-1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/faq-2"
+                                                            class="block px-4 py-2 hover:text-red-500">FAQ-2</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <!-- Dropdown Portfolio -->
+                                        <li>
+                                            <button id="doubleDropdownButton__Portfolio"
+                                                data-dropdown-toggle="doubleDropdown__Portfolio"
+                                                data-dropdown-placement="right-start" data-dropdown-trigger="hover"
+                                                type="button"
+                                                class="flex items-center justify-between w-full px-4 py-2 hover:text-red-500">Portfolio<svg
+                                                    class="w-2.5 h-2.5 ms-3 rtl:rotate-180" aria-hidden="true"
+                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                                                </svg></button>
+                                            <div id="doubleDropdown__Portfolio"
+                                                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                                <ul class="py-2 text-[16px] text-black"
+                                                    aria-labelledby="doubleDropdownButton__Portfolio">
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/portfolio"
+                                                            class="block px-4 py-2 hover:text-red-500">Portfolio</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/portfolio-details"
+                                                            class="block px-4 py-2 hover:text-red-500">Portfolio
+                                                            Details</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+                                        <!-- Dropdown Pricing -->
+                                        <li>
+                                            <a href="https://azzle.netlify.app/pricing"
+                                                class="block px-4 py-2 hover:text-red-500">Pricing</a>
+                                        </li>
+
+                                        <!-- Dropdown Utilities -->
+                                        <li>
+                                            <button id="doubleDropdownButton__Utilities"
+                                                data-dropdown-toggle="doubleDropdown__Utilities"
+                                                data-dropdown-placement="right-start" data-dropdown-trigger="hover"
+                                                type="button"
+                                                class="flex items-center justify-between w-full px-4 py-2 hover:text-red-500">Utilitiess<svg
+                                                    class="w-2.5 h-2.5 ms-3 rtl:rotate-180" aria-hidden="true"
+                                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                                    <path stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                                                </svg></button>
+                                            <div id="doubleDropdown__Utilities"
+                                                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
+                                                <ul class="py-2 text-[16px] text-black"
+                                                    aria-labelledby="doubleDropdownButton__Utilities">
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/error-404"
+                                                            class="block px-4 py-2 hover:text-red-500">Eror 404</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/login"
+                                                            class="block px-4 py-2 hover:text-red-500">Login</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/signup"
+                                                            class="block px-4 py-2 hover:text-red-500">Sign up</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://azzle.netlify.app/reset-password"
+                                                            class="block px-4 py-2 hover:text-red-500">Reset
+                                                            Password</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+
+
+
+
+
+                            <!-- <Contact -->
+                            <li>
+                                <a href="https://azzle.netlify.app/contact"
+                                    class="block py-2.5 px-5 text-black rounded-sm hover:bg-transparent md:border-0">Contact</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+
+
+                    <div>
+                        <a href="https://azzle.netlify.app/login"
+                            class="group/btn relative inline-flex items-center justify-center overflow-hidden rounded-full text-black bg-transparent border border-black border-0.5 px-6 py-3 my-10 mx-5 text-[16px] font-extrabold">
+                            <span
+                                class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-500 ease-in-out group-hover/btn:translate-y-0"></span>
+
+                            <span class="relative z-10">
+                                Login
+                            </span>
+                        </a>
+                        <a href="https://azzle.netlify.app/signup"
+                            class="group/btn relative inline-flex items-center justify-center overflow-hidden rounded-full bg-black px-6 py-3 my-10 text-[16px] font-extrabold text-white">
+                            <span
+                                class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-500 ease-in-out group-hover/btn:translate-y-0"></span>
+
+                            <span class="relative z-10">
+                                Sign up free
+                            </span>
+                        </a>
+                    </div>
+
+
+                </div>
+            </nav>
+
+
+
+
+
+        </header>
+
+
+
+
+
+
+
+
+        <section class="backround relative z-[1] overflow-hidden ">
+
+
+            <!-- <Sas -->
+            <section class="max-w-screen-xl flex flex-col items-center justify-between mx-auto p-4 all ">
+
+                <div class="sas__text" data-aos="fade-up">
+                    <h1 style="color: black; font-weight: 700; font-size: 90px;line-height: 1">Simplify your SaaS<br />
+                        solution with AI
+                    </h1>
+                    <h3 style="color: black; font-weight: 500; text-align: center;padding-top: 30px;">Our AI SAAS tool
+                        is a
+                        cloud-based
+                        software delivery model. It helps businesses
+                        forecast demand for <br>
+                        products
+                        and services and optimize inventory management and supply chain operations.</h3>
+                </div>
+                <div>
+                    <div
+                        class="group/btn relative inline-flex items-center justify-center overflow-hidden rounded-full bg-black px-6 py-4 my-10 text-[16px] font-extrabold text-white">
+                        <span
+                            class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-500 ease-in-out group-hover/btn:translate-y-0"></span>
+
+                        <span class="relative z-10">
+                            Get started for free
+                        </span>
+                    </div>
+                    <div
+                        class="group/btn relative inline-flex items-center justify-center overflow-hidden rounded-full text-black bg-transparent border border-black border-2 px-6 py-4 my-10 text-[16px] font-extrabold">
+                        <span
+                            class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-500 ease-in-out group-hover/btn:translate-y-0"></span>
+
+                        <span class="relative z-10">
+                            Learn more
+                        </span>
+                    </div>
+                </div>
+
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" data-aos="zoom-in">
+                    <img src="./images/hero-dashboard.jpg" alt="">
+                </div>
+
+                <hr class="hr" />
+
+                <!-- <slick -->
+                <div class="sas__footer flex flex-col items-center justify-between mx-auto brand all"
+                    data-aos="fade-up">
+                    <h4>Companies of all sizes trust us to find AI SaaS critical to their growth and innovation</h4>
+                    <div class="brand__content">
+                        <div class="brand__item">
+                            <div><img src="./images/brand-1.png" alt=""></div>
+                            <div><img src="./images/brand-2.png" alt=""></div>
+                            <div><img src="./images/brand-3.png" alt=""></div>
+                            <div><img src="./images/brand-4.png" alt=""></div>
+                            <div><img src="./images/brand-5.png" alt=""></div>
+
+                            <div><img src="./images/brand-1.png" alt=""></div>
+                            <div><img src="./images/brand-2.png" alt=""></div>
+                            <div><img src="./images/brand-3.png" alt=""></div>
+                            <div><img src="./images/brand-4.png" alt=""></div>
+                            <div><img src="./images/brand-5.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!-- <background  -->
+
+            <p></p>
+            <div
+                class="bg orange-gradient-1 absolute -right-[150px] top-[370px] -z-[1] h-[500px] w-[500px]  rounded-[500px]">
+            </div>
+            <div
+                class="bg orange-gradient-2 absolute right-[57px] top-[620px] -z-[1] h-[450px] w-[450px]  rounded-[450px]">
+            </div>
+
+
+
+
+
+        </section>
+    </div>
+
+
+
+
+
+
+    <!-- <features -->
+
+
+
+    <section class="features__content bg-neutral-primary all">
+        <div data-aos="fade-up">
+            <h1 class="px-5 all pt-25 pb-2" style="font-size: 70px; font-weight: 700; text-align: left;">Core features
+                that<br /> make it valuable</h1>
+        </div>
+
+        <div class="pb-8 px-4 mx-auto lg:py-16 features" data-aos="fade-up">
+
+            <div class="grid md:grid-cols-4 features_contain">
+
+                <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12 features_item ">
+                    <span
+                        class="inline-flex items-center bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm ">
+                        <img class="img_black" src="./images/service-icon-black-1.svg" alt="">
+                        <img class="img_red" src="./images/service-icon-orange-1.svg" alt="">
+                    </span>
+                    <h2 class="text-heading text-3xl font-semobild my-4" style="font-size: 30px; font-weight: 700;">
+                        Resource Flexibility</h2>
+                    <p class="font-normal text-body mb-4" style="font-size: 20px;">This is an excellent option
+                        for<br /> people & small businesses<br /> who are starting out.</p>
+                    <a href="#" class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center">
+                        <svg class="w-6 h-6 rtl:rotate-180 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 12H5m14 0-4 4m4-4-4-4" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12 features_item">
+                    <span
+                        class="inline-flex items-center bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
+                        <img class="img_black" src="./images/service-icon-black-2.svg" alt="">
+                        <img class="img_red" src="./images/service-icon-orange-2.svg" alt="">
+                    </span>
+                    <h2 class="text-heading text-3xl font-semobild my-4" style="font-size: 30px; font-weight: 700;">
+                        Resource Flexibility</h2>
+                    <p class=" font-normal text-body mb-4" style="font-size: 20px;">This is an excellent option
+                        for<br /> people & small businesses<br /> who are starting out.</p>
+                    <a href="#" class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center">
+                        <svg class="w-6 h-6 rtl:rotate-180 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 12H5m14 0-4 4m4-4-4-4" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12 features_item">
+                    <span
+                        class="inline-flex items-center bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
+                        <img class="img_black" src="./images/service-icon-black-3.svg" alt="">
+                        <img class="img_red" src="./images/service-icon-orange-3.svg" alt="">
+                    </span>
+                    <h2 class="text-heading text-3xl font-semobild my-4" style="font-size: 30px; font-weight: 700;">
+                        Resource Flexibility</h2>
+                    <p class=" font-normal text-body mb-4" style="font-size: 20px;">This is an excellent option
+                        for<br /> people & small businesses<br /> who are starting out.</p>
+                    <a href="#" class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center">
+                        <svg class="w-6 h-6 rtl:rotate-180 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 12H5m14 0-4 4m4-4-4-4" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="bg-neutral-secondary-soft border border-default rounded-base p-8 md:p-12 features_item">
+                    <span
+                        class="inline-flex items-center bg-brand-softer text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded-sm">
+                        <img class="img_black" src="./images/service-icon-black-4.svg" alt="">
+                        <img class="img_red" src="./images/service-icon-orange-4.svg" alt="">
+                    </span>
+                    <h2 class="text-heading text-3xl font-semobild my-4" style="font-size: 30px; font-weight: 700;">
+                        Resource Flexibility</h2>
+                    <p class=" font-normal text-body mb-4" style="font-size: 20px;">This is an excellent option
+                        for<br /> people & small businesses<br /> who are starting out.</p>
+                    <a href="#" class="text-fg-brand hover:underline font-medium text-lg inline-flex items-center">
+                        <svg class="w-6 h-6 rtl:rotate-180 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 12H5m14 0-4 4m4-4-4-4" />
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- solution -->
+    <section class="all w-full mx-auto">
+        <div class="solution">
+            <div
+                class="solution_contain grid grid-cols-1 md:grid-cols-2 flex items-center py-20 mx-5 gap-20 justify-between">
+                <div data-aos="fade-left"><img class="solution_img" src="./images/content-image-1.jpg" alt=""></div>
+                <div class="solution_text" data-aos="fade-right">
+                    <h1 class="pb-6">Accessible to a wider audience</h1>
+                    <p>Advanced AI capabilities accessible to a broader audience,<br /> including small & medium-sized
+                        businesses
+                        and individuals<br /> who may not have the resources or expertise to develop.<br />
+                        <br />
+                        Advanced AI capabilities accessible to a broader audience,<br /> including small & medium-sized
+                        businesses
+                        and individuals<br /> who may not have the resources or expertise to develop.
+                    </p>
+                </div>
+            </div>
+
+            <div
+                class="solution_contain grid grid-cols-1 md:grid-cols-2 flex items-center py-20 mx-5 gap-30 justify-between">
+                <div data-aos="fade-right">
+                    <h1 class="pb-6">Providing quick deploy solutions</h1>
+                    <p>Our AI SaaS solutions can be quickly deployed, enabling users to start benefiting from AI
+                        capabilities without lengthy setup and development times in fast-paced industries.
+
+                    </p>
+                    <ul class="pt-10">
+                        <div class="flex items-center font-bold gap-4">
+                            <button class="bg-black text-white w-6 h-6 rounded-full">
+                                <i class="fa-solid fa-check text-xs"></i></button>
+                            <li class="text-[28px]">Ready-to-use AI capabilities system</li>
+                        </div>
+                        <div class="flex items-center font-bold gap-4">
+                            <button class="bg-black text-white w-6 h-6 rounded-full">
+                                <i class="fa-solid fa-check text-xs"></i></button>
+                            <li class="text-[28px]">Users can quickly integrate AI features</li>
+                        </div>
+                        <div class="flex items-center font-bold gap-4">
+                            <button class="bg-black text-white w-6 h-6 rounded-full">
+                                <i class="fa-solid fa-check text-xs"></i></button>
+                            <li class="text-[28px]">Time savings translate to cost savings</li>
+                        </div>
+                    </ul>
+                </div>
+                <div data-aos="fade-left"><img src="./images/content-image-2.jpg" alt=""></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ha -->
+
+
+    <!-- Streamline -->
+    <section id="streamline" class="my-10" data-aos="fade-up">
+        <div
+            class="flex flex-col lg:flex-row mx-auto w-[95%] 2xl:w-[75%] my-10 bg-black overflow-hidden rounded-[30px] lg:rounded-[50px]">
+            <!-- Media -->
+            <div class="streamline__media relative overflow-hidden lg:w-[40%]">
+                <img class="media w-full object-cover object-center lg:h-full" src="./images/funfact-image.jpg" alt="">
+                <a href="#" class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <div
+                        class="flex h-30 w-30 items-center justify-center rounded-full border-2 border-black bg-white/30 text-xl font-bold text-black backdrop-blur-sm transition-all duration-300 hover:bg-[#fe330a] hover:text-white lg:h-28 lg:w-28">
+                        Play
+                        <div class="absolute -z-10 h-[110%] w-[110%] animate-ping rounded-full bg-gray-600/50 opacity-40"
+                            style="animation-duration: 1.5s;">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Content -->
+            <div class="streamline__content flex flex-col text-left p-10 lg:w-[60%] lg:p-14 xl:p-16">
+                <h2 class="mb-8 text-7xl font-bold tracking-tight text-white">AI-powered that streamline
+                    tasks</h2>
+                <p class="mb-8 text-2xl text-white">As your business grows or your AI SaaS
+                    needs change, you can easily adjust your subscription level to match those needs. This flexibility
+                    ensures that AI remains an asset.</p>
+                <div class="my-6 h-px w-full bg-white/10"></div>
+                <div class="statistic__content flex gap-20">
+                    <div class="statistic__item mt-6 text-left">
+                        <p class="text-[#fe330a] font-bold text-7xl 2xl:text-[120px]"><span
+                                class="counter 2xl:text-[120px]">92</span>%</p>
+                        <p class="text-xl text-white">Customer service inquiries</p>
+                    </div>
+                    <div class="statistic__item mt-6 text-left">
+                        <p class="text-[#fe330a] font-bold text-7xl 2xl:text-[120px]"><span
+                                class="counter 2xl:text-[120px]">75</span>%</p>
+                        <p class="text-xl text-white">Using financial institutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Cost -->
+    <section>
+        <div>
+            <div data-aos="fade-up">
+                <h2 class="Cost__section text-7xl text-black font-bold text-center pt-16 pb-10">Cost-effectively build
+                    <br>any software
+                </h2>
+
+                <div class="mb-4 flex justify-center">
+                    <ul class="inline-flex mx-auto w-fit my-8 border-2 border-black rounded-full bg-white"
+                        id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content"
+                        data-tabs-active-classes="text-white bg-black" data-tabs-inactive-classes="text-black bg-white"
+                        role="tablist">
+                        <li class="flex" role="presentation">
+                            <button
+                                class="min-w-[180px] px-8 py-4 rounded-full text-xl cursor-pointer font-semibold transition-all duration-300"
+                                id="monthly-styled-tab" data-tabs-target="#styled-monthly" type="button" role="tab"
+                                aria-controls="styled-monthly" aria-selected="true">Monthly</button>
+                        </li>
+                        <li class="flex" role="presentation">
+                            <button
+                                class="min-w-[180px] px-8 py-4 rounded-full text-xl cursor-pointer font-semibold transition-all duration-300"
+                                id="annually-styled-tab" data-tabs-target="#styled-annually" type="button" role="tab"
+                                aria-controls="styled-annually" aria-selected="false">Annually</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="default-styled-tab-content" data-aos="flip-left" data-aos-delay="800">
+                <div class="hidden p-4 rounded-base bg-neutral-secondary-soft" id="styled-monthly" role="tabpanel"
+                    aria-labelledby="monthly-tab">
+                    <div
+                        class="cost__content pricing__list grid grid-cols-1 gap-6 w-[90%] max-w-[1280px] md:grid-cols-2 2xl:grid-cols-3 mx-auto">
+                        <div
+                            class="cost__item group p-10 bg-neutral-primary-soft bg-[#EFEAE3] rounded-[10px] transition-all duration-300 ease-linear hover:bg-black">
+                            <h5
+                                class="mb-1 text-2xl font-semibold text-body text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                Beginner</h5>
+                            <p class="text-lg transition-all duration-300 ease-linear group-hover:text-white">Up to 10
+                                members
+                            </p>
+                            <div
+                                class="my-5 h-px w-full bg-black/10 transition-all duration-300 ease-linear group-hover:bg-white">
+                            </div>
+                            <div class="flex items-baseline text-heading my-3">
+                                <span
+                                    class="text-7xl font-bold tracking-tight transition-all duration-300 ease-linear group-hover:text-white">$25</span>
+                                <span
+                                    class="ms-2 font-medium text-base text-black transition-all duration-300 ease-linear group-hover:text-white">/Per
+                                    month</span>
+                            </div>
+                            <p
+                                class="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                This is
+                                an excellent option for people & small businesses who are starting out.</p>
+                            <button type="button"
+                                class="group/btn relative mt-8 mb-2 cursor-pointer block w-full overflow-hidden rounded-[30px] border-2 border-black px-4 py-2.5 text-sm font-bold leading-5 text-black transition-all duration-300 ease-linear focus:outline-none group-hover:border-[#FE330A]">
+                                <span
+                                    class="relative z-10 transition-all duration-300 ease-linear group-hover:text-white">
+                                    Choose the plan
+                                </span>
+                                <span
+                                    class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-300 ease-linear group-hover/btn:translate-y-0"></span>
+                            </button>
+                        </div>
+
+                        <div
+                            class="cost__item group p-10 bg-neutral-primary-soft bg-[#EFEAE3] rounded-[10px] transition-all duration-300 ease-linear hover:bg-black">
+                            <h5
+                                class="mb-1 text-2xl font-semibold text-body text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                Starter</h5>
+                            <p class="text-lg transition-all duration-300 ease-linear group-hover:text-white">Up to 50
+                                members
+                            </p>
+                            <div
+                                class="my-5 h-px w-full bg-black/10 transition-all duration-300 ease-linear group-hover:bg-white">
+                            </div>
+                            <div class="flex items-baseline text-heading my-3">
+                                <span
+                                    class="text-7xl font-bold tracking-tight transition-all duration-300 ease-linear group-hover:text-white">$89</span>
+                                <span
+                                    class="ms-2 font-medium text-base text-black transition-all duration-300 ease-linear group-hover:text-white">/Per
+                                    month</span>
+                            </div>
+                            <p
+                                class="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                This
+                                plan is suitable for e-commerce stores as well as professional blogs.</p>
+                            <button type="button"
+                                class="group/btn relative mt-8 mb-2 cursor-pointer block w-full overflow-hidden rounded-[30px] border-2 border-black px-4 py-2.5 text-sm font-bold leading-5 text-black transition-all duration-300 ease-linear focus:outline-none group-hover:border-[#FE330A]">
+                                <span
+                                    class="relative z-10 transition-all duration-300 ease-linear group-hover:text-white">
+                                    Choose the plan
+                                </span>
+                                <span
+                                    class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-300 ease-linear group-hover/btn:translate-y-0"></span>
+                            </button>
+                        </div>
+
+                        <div
+                            class="cost__item-3 group p-10 bg-neutral-primary-soft bg-[#EFEAE3] rounded-[10px] transition-all duration-300 ease-linear hover:bg-black">
+                            <h5
+                                class="mb-1 text-2xl font-semibold text-body text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                Pro</h5>
+                            <p class="text-lg transition-all duration-300 ease-linear group-hover:text-white">Up to 100
+                                members
+                            </p>
+                            <div
+                                class="my-5 h-px w-full bg-black/10 transition-all duration-300 ease-linear group-hover:bg-white">
+                            </div>
+                            <div class="flex items-baseline text-heading my-3">
+                                <span
+                                    class="text-7xl font-bold tracking-tight transition-all duration-300 ease-linear group-hover:text-white">$199</span>
+                                <span
+                                    class="ms-2 font-medium text-base text-black transition-all duration-300 ease-linear group-hover:text-white">/Per
+                                    month</span>
+                            </div>
+                            <p
+                                class="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                Ideal
+                                for handling complicated projects enterprise-level projects, and websites.</p>
+                            <button type="button"
+                                class="group/btn relative mt-8 mb-2 cursor-pointer block w-full overflow-hidden rounded-[30px] border-2 border-black px-4 py-2.5 text-sm font-bold leading-5 text-black transition-all duration-300 ease-linear focus:outline-none group-hover:border-[#FE330A]">
+                                <span
+                                    class="relative z-10 transition-all duration-300 ease-linear group-hover:text-white">
+                                    Choose the plan
+                                </span>
+                                <span
+                                    class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-300 ease-linear group-hover/btn:translate-y-0"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden p-4 rounded-base bg-neutral-secondary-soft" id="styled-annually" role="tabpanel"
+                    aria-labelledby="annually-tab">
+                    <div
+                        class="cost__content pricing__list grid grid-cols-1 gap-6 w-[90%] max-w-[1280px] md:grid-cols-2 2xl:grid-cols-3 mx-auto">
+                        <div
+                            class="cost__item group p-10 bg-neutral-primary-soft bg-[#EFEAE3] rounded-[10px] transition-all duration-300 ease-linear hover:bg-black">
+                            <h5
+                                class="mb-1 text-2xl font-semibold text-body text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                Beginner</h5>
+                            <p class="text-lg transition-all duration-300 ease-linear group-hover:text-white">Up to 10
+                                members
+                            </p>
+                            <div
+                                class="my-5 h-px w-full bg-black/10 transition-all duration-300 ease-linear group-hover:bg-white">
+                            </div>
+                            <div class="flex items-baseline text-heading my-3">
+                                <span
+                                    class="text-7xl font-bold tracking-tight transition-all duration-300 ease-linear group-hover:text-white">$240</span>
+                                <span
+                                    class="ms-2 font-medium text-base text-black transition-all duration-300 ease-linear group-hover:text-white">/Per
+                                    year</span>
+                            </div>
+                            <p
+                                class="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                This is
+                                an excellent option for people & small businesses who are starting out.</p>
+                            <button type="button"
+                                class="group/btn relative mt-8 mb-2 cursor-pointer block w-full overflow-hidden rounded-[30px] border-2 border-black px-4 py-2.5 text-sm font-bold leading-5 text-black transition-all duration-300 ease-linear focus:outline-none group-hover:border-[#FE330A]">
+                                <span
+                                    class="relative z-10 transition-all duration-300 ease-linear group-hover:text-white">
+                                    Choose the plan
+                                </span>
+                                <span
+                                    class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-300 ease-linear group-hover/btn:translate-y-0"></span>
+                            </button>
+                        </div>
+
+                        <div
+                            class="cost__item group p-10 bg-neutral-primary-soft bg-[#EFEAE3] rounded-[10px] transition-all duration-300 ease-linear hover:bg-black">
+                            <h5
+                                class="mb-1 text-2xl font-semibold text-body text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                Starter</h5>
+                            <p class="text-lg transition-all duration-300 ease-linear group-hover:text-white">Up to 50
+                                members
+                            </p>
+                            <div
+                                class="my-5 h-px w-full bg-black/10 transition-all duration-300 ease-linear group-hover:bg-white">
+                            </div>
+                            <div class="flex items-baseline text-heading my-3">
+                                <span
+                                    class="text-7xl font-bold tracking-tight transition-all duration-300 ease-linear group-hover:text-white">$960</span>
+                                <span
+                                    class="ms-2 font-medium text-base text-black transition-all duration-300 ease-linear group-hover:text-white">/Per
+                                    year</span>
+                            </div>
+                            <p
+                                class="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                This
+                                plan is suitable for e-commerce stores as well as professional blogs.</p>
+                            <button type="button"
+                                class="group/btn relative mt-8 mb-2 cursor-pointer block w-full overflow-hidden rounded-[30px] border-2 border-black px-4 py-2.5 text-sm font-bold leading-5 text-black transition-all duration-300 ease-linear focus:outline-none group-hover:border-[#FE330A]">
+                                <span
+                                    class="relative z-10 transition-all duration-300 ease-linear group-hover:text-white">
+                                    Choose the plan
+                                </span>
+                                <span
+                                    class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-300 ease-linear group-hover/btn:translate-y-0"></span>
+                            </button>
+                        </div>
+
+                        <div
+                            class="cost__item-3 group p-10 bg-neutral-primary-soft bg-[#EFEAE3] rounded-[10px] transition-all duration-300 ease-linear hover:bg-black">
+                            <h5
+                                class="mb-1 text-2xl font-semibold text-body text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                Pro</h5>
+                            <p class="text-lg transition-all duration-300 ease-linear group-hover:text-white">Up to 100
+                                members
+                            </p>
+                            <div
+                                class="my-5 h-px w-full bg-black/10 transition-all duration-300 ease-linear group-hover:bg-white">
+                            </div>
+                            <div class="flex items-baseline text-heading my-3">
+                                <span
+                                    class="text-7xl font-bold tracking-tight transition-all duration-300 ease-linear group-hover:text-white">$1800</span>
+                                <span
+                                    class="ms-2 font-medium text-base text-black transition-all duration-300 ease-linear group-hover:text-white">/Per
+                                    year</span>
+                            </div>
+                            <p
+                                class="text-lg text-black transition-all duration-300 ease-linear group-hover:text-white">
+                                Ideal
+                                for handling complicated projects enterprise-level projects, and websites.</p>
+                            <button type="button"
+                                class="group/btn relative mt-8 mb-2 cursor-pointer block w-full overflow-hidden rounded-[30px] border-2 border-black px-4 py-2.5 text-sm font-bold leading-5 text-black transition-all duration-300 ease-linear focus:outline-none group-hover:border-[#FE330A]">
+                                <span
+                                    class="relative z-10 transition-all duration-300 ease-linear group-hover:text-white">
+                                    Choose the plan
+                                </span>
+                                <span
+                                    class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-300 ease-linear group-hover/btn:translate-y-0"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Information -->
+    <section id="infomation">
+        <div class="information__card flex justify-center gap-20 all">
+
+            <div class="information__left w-[50%] mt-20 p-6" data-aos="fade-right" data-aos-delay="2000">
+                <h5 class="text-[60px] font-bold leading-none">Freely ask us for more information</h5>
+                <p class="text-xl text-left my-6">Our AI SaaS solutions can be quickly deployed, enabling users to start
+                    benefiting from AI capabilities without lengthy setup and development times in fast-paced
+                    industries.</p>
+                <a href="#"
+                    class="group/btn relative inline-flex items-center justify-center overflow-hidden rounded-full bg-black px-6 py-4 my-10 text-[16px] font-extrabold text-white">
+                    <span
+                        class="absolute inset-0 z-0 -translate-y-full bg-[#FE330A] transition-transform duration-500 ease-in-out group-hover/btn:translate-y-0"></span>
+
+                    <span class="relative z-10">
+                        Ask your questions
+                    </span>
+                </a>
+            </div>
+
+            <div class="information__right flex flex-col w-[40%] mt-10" data-aos="fade-left" data-aos-delay="2000">
+                <div class="mt-10 bg-white text-black">
+                    <div class="border-b border-gray-300 py-6">
+                        <div class="flex justify-between items-center cursor-pointer">
+                            <h5 class="text-[30px] font-bold tracking-tight text-gray-900 dark:text-white">How do I
+                                start AI
+                                SaaS?
+                            </h5>
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                        <p class="text-lg text-gray-700">Go to the our official website and require users to create an
+                            account.
+                            You'll need to provide some basic information and agree to our terms and conditions.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black">
+                    <div class="border-b border-gray-300 py-6">
+                        <div class="flex justify-between items-center cursor-pointer">
+                            <h5 class="text-[30px] font-bold tracking-tight text-gray-900 dark:text-white">Can I
+                                customize
+                                AI SaaS solutions?
+                            </h5>
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                        <p class="text-lg text-gray-700">Go to the our official website and require users to create an
+                            account. You'll need to provide some basic information and agree to our terms and
+                            conditions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white text-black">
+                    <div class="border-b border-gray-300 py-6">
+                        <div class="flex justify-between items-center cursor-pointer">
+                            <h5 class="text-[30px] font-bold tracking-tight text-gray-900 dark:text-white">How can AI
+                                benefit my business?
+                            </h5>
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                        <p class="text-lg text-gray-700">Go to the our official website and require users to create an
+                            account. You'll need to provide some basic information and agree to our terms and
+                            conditions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="information__QA"></div>
+    </section>
+
+    <!-- Feedback -->
+    <section>
+        <div class="bg-black text-white mt-20 pt-10">
+            <h2 class="feedback__title text-7xl text-white font-bold text-center py-20" data-aos="fade-up">Positive feedback <br>from our
+                users</h2>
+            <div class="feedback__content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-5 gap-4 pb-30">
+                <div class="feedback__item1 flex flex-col border-1 border-white/10 p-5 mx-auto rounded-sm" data-aos="fade-left" data-aos-delay="1500">
+
+                    <!-- stars -->
+                    <div class=" star flex items-center space-x-1 text-2xl pt-2">
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                    </div>
+
+                    <!-- users -->
+                    <p class="text-xl my-7">“This AI SaaS tool has revolutionized the way we process and analyze data.
+                        This
+                        is a game-changer for our business.”</p>
+                    <div class="flex gap-3 py-3"><img src="./images/testimonial-img-1.jpg" class="rounded-full">
+                        <div class="flex flex-col">
+                            <p class="text-lg font-bold">Max Weber</p>
+                            <p class="text-base">HR Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback__item1 flex flex-col border-1 border-white/10 p-5 mx-auto rounded-sm" data-aos="fade-left" data-aos-delay="1500">
+
+                    <!-- stars -->
+                    <div class="star flex items-center space-x-1 text-2xl pt-2">
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                    </div>
+
+                    <!-- users -->
+                    <p class="text-xl my-7">"It answers immediately, and we've seen a significant reduction in response
+                        time. Our customers love it and so do we!"</p>
+                    <div class="flex gap-3 py-3"><img src="./images/testimonial-img-2.jpg" class="rounded-full">
+                        <div class="flex flex-col">
+                            <p class="text-lg font-bold">Douglas Smith</p>
+                            <p class="text-base">Businessman</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback__item1 flex flex-col border-1 border-white/10 p-5 mx-auto rounded-sm" data-aos="fade-left" data-aos-delay="1500">
+
+                    <!-- stars -->
+                    <div class="star flex items-center space-x-1 text-2xl pt-2">
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                    </div>
+
+                    <!-- users -->
+                    <p class="text-xl my-7">"It is accurate, fast and supports multiple languages support. It is a must
+                        for any international business success."</p>
+                    <div class="flex gap-3 py-3"><img src="./images/testimonial-img-3.jpg" class="rounded-full">
+                        <div class="flex flex-col">
+                            <p class="text-lg font-bold">Abraham Maslo</p>
+                            <p class="text-base">Founder @ Marketing Company</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback__item2 flex flex-col border-1 border-white/10 p-5 mx-auto rounded-sm" data-aos="fade-right" data-aos-delay="1500">
+
+                    <!-- stars -->
+                    <div class="star flex items-center space-x-1 text-2xl pt-2">
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                    </div>
+
+                    <!-- users -->
+                    <p class="text-xl my-7">"Security is a top concern for us, and AI SaaS takes it seriously. It's a
+                        reassuring layer of protection for our organization."</p>
+                    <div class="flex gap-3 py-3"><img src="./images/testimonial-img-4.jpg" class="rounded-full">
+                        <div class="flex flex-col">
+                            <p class="text-lg font-bold">Jack Fayol</p>
+                            <p class="text-base">HR Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback__item2 flex flex-col border-1 border-white/10 p-5 mx-auto rounded-sm" data-aos="fade-right" data-aos-delay="1500">
+
+                    <!-- stars -->
+                    <div class="star flex items-center space-x-1 text-2xl pt-2">
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                    </div>
+
+                    <!-- users -->
+                    <p class="text-xl my-7">"We were concerned about integrating their APIs were well documented, and
+                        their support team was super cool."</p>
+                    <div class="flex gap-3 py-3"><img src="./images/testimonial-img-5.jpg" class="rounded-full">
+                        <div class="flex flex-col">
+                            <p class="text-lg font-bold">Karen Lynn</p>
+                            <p class="text-base">Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback__item2 flex flex-col border-1 border-white/10 p-5 mx-auto rounded-sm" data-aos="fade-right" data-aos-delay="1500">
+
+                    <!-- stars -->
+                    <div class="star flex items-center space-x-1 text-2xl pt-2">
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                        <svg class="w-6 h-6 text-fg-red" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M13.849 4.22c-.684-1.626-3.014-1.626-3.698 0L8.397 8.387l-4.552.361c-1.775.14-2.495 2.331-1.142 3.477l3.468 2.937-1.06 4.392c-.413 1.713 1.472 3.067 2.992 2.149L12 19.35l3.897 2.354c1.52.918 3.405-.436 2.992-2.15l-1.06-4.39 3.468-2.938c1.353-1.146.633-3.336-1.142-3.477l-4.552-.36-1.754-4.17Z" />
+                        </svg>
+                    </div>
+
+                    <!-- users -->
+                    <p class="text-xl my-7">"The return on investment has exceeded our expectations. it's an investment
+                        in the future of our business."</p>
+                    <div class="flex gap-3 py-3"><img src="./images/testimonial-img-6.jpg" class="rounded-full">
+                        <div class="flex flex-col">
+                            <p class="text-lg font-bold">Henry Ochi</p>
+                            <p class="text-base">Bank Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer__background">
+            <div class="footer__title flex inline-flex justify-center 20 text-5xl 2xl:text-7xl font-bold items-center py-20 gap-2">
+                <i class="fa-solid fa-star t"></i>
+                <h2>Start building software</h2>
+                <i class="fa-solid fa-star t"></i>
+                <h2>Start building software</h2>
+                <i class="fa-solid fa-star t"></i>
+            </div>
+            <hr class="my-4 border-default border-gray-300 mx-auto w-[50%]" />
+            <div>
+
+                <div>
+                    <div class="mx-auto max-w-screen-xl py-10 px-5 md:py-20">
+                        <div
+                            class="footer__content grid grid-cols-1 gap-10 py-[20px] md:grid-cols-[1fr_auto_auto] xl:grid-cols-4 xl:gap-20 items-start">
+                            <div>
+                                <img src="./images/logo.png" class="">
+                                <p class="py-8 text-xl">Our mission is to harness the power of AI to solve complex
+                                    business
+                                    challenges &
+                                    decision-makers with data-driven insights, and enhance user experiences across
+                                    digital platforms.</p>
+                                <p class="text-xl">Website:
+                                    <a href="https://www.example.com/">www.example.com</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h2 class="mb-6 text-xl font-semibold text-heading">Primary Pages</h2>
+                                <ul class="text-xl flex flex-col gap-y-5">
+                                    <li>
+                                        <a href="#" class="hover:text-red-500">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azzle.netlify.app/about" class="hover:text-red-500">About
+                                            Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azzle.netlify.app/services"
+                                            class="hover:text-red-500">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azzle.netlify.app/pricing"
+                                            class="hover:text-red-500">Pricing</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azzle.netlify.app/contact"
+                                            class="hover:text-red-500">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 class="mb-6 text-xl font-semibold text-heading">Utility pages</h2>
+                                <ul class="text-xl flex flex-col gap-y-5">
+                                    <li>
+                                        <a href="https://azzle.netlify.app/signup" class="hover:text-red-500">Signup</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azzle.netlify.app/login" class="hover:text-red-500">Login</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azzle.netlify.app/error-404" class="hover:text-red-500">404
+                                            Not found</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azzle.netlify.app/reset-password"
+                                            class="hover:text-red-500">Password Reset</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-col">
+                                <h2 class="mb-6 text-xl font-semibold text-heading">Subscribe to our newsletter</h2>
+                                <div class="flex items-center border border-black bg-white rounded-4xl">
+                                    <input type="email" placeholder="Enter your email"
+                                        class="flex-1 px-4 py-3 border-0 rounded-full outline-none placeholder:text-[18px] text-left">
+                                    <button class="flex rounded-full bg-black text-white py-3 px-5 mx-1">
+                                        <i class="fa-solid fa-arrow-right text-base"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="border-default border-gray-300 mx-auto w-[50%]" />
+                    <div class="items-center sm:justify-between">
+                        <p class="text-xl text-body text-center my-6">© Copyright 2023, All Rights Reserved by Mthemeus
+                        </p>
+                        <br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- countup -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./libs/countup/jquery.countup.min.js"></script>
+    <script>$(".counter").countUp();</script>
+
+
+    <!-- <slicks -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $('.brand__item').slick({
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 5,
+            });
+        });
+    </script>
+
+
+    <!-- <flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+    <!-- js aos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 250,
+        });
+    </script>
+
+</body>
+
+</html>
